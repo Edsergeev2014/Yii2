@@ -1,0 +1,2104 @@
+2019-07-15 19:28:35 [::1][-][1672f513e61db917f7412752e67c6518][error][Error] Error: Call to undefined method app\models\Activity::getValues() in /Applications/AMPPS/www/Yii2_2/basic/controllers/ActivityController.php:36
+Stack trace:
+#0 [internal function]: app\controllers\ActivityController->actionIndex()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('activity', Array)
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2019-07-15 19:28:35 [::1][-][1672f513e61db917f7412752e67c6518][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-3315c5f5' => '9f57d401-13e9-42e9-aeab-ed67afe299d4'
+    'PHPSESSID' => '1672f513e61db917f7412752e67c6518'
+    '_csrf' => '019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pO21HwGGWla7ufz2V-rHVOnikDA-Oqku\";}'
+]
+
+$_SESSION = [
+    'count' => 1
+    '__flash' => []
+    '__captcha/site/captcha' => 'mgqecen'
+    '__captcha/site/captchacount' => 1
+    'currentPage' => '/Yii2_2/basic/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'Phpstorm-3315c5f5=9f57d401-13e9-42e9-aeab-ed67afe299d4; PHPSESSID=1672f513e61db917f7412752e67c6518; _csrf=019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pO21HwGGWla7ufz2V-rHVOnikDA-Oqku%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Unix) OpenSSL/1.0.1p PHP/7.1.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/Yii2_2/basic/web/index.php'
+    'REMOTE_PORT' => '55304'
+    'REDIRECT_URL' => '/Yii2_2/basic/web/activity'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Yii2_2/basic/web/activity'
+    'SCRIPT_NAME' => '/Yii2_2/basic/web/index.php'
+    'PHP_SELF' => '/Yii2_2/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563218914.69
+    'REQUEST_TIME' => 1563218914
+]
+2019-07-15 19:28:55 [::1][-][1672f513e61db917f7412752e67c6518][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: activity/data in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('data', Array)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('activity/data', Array)
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-07-15 19:28:54 [::1][-][1672f513e61db917f7412752e67c6518][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-3315c5f5' => '9f57d401-13e9-42e9-aeab-ed67afe299d4'
+    'PHPSESSID' => '1672f513e61db917f7412752e67c6518'
+    '_csrf' => '019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pO21HwGGWla7ufz2V-rHVOnikDA-Oqku\";}'
+]
+
+$_SESSION = [
+    'count' => 1
+    '__flash' => []
+    '__captcha/site/captcha' => 'mgqecen'
+    '__captcha/site/captchacount' => 1
+    'currentPage' => '/Yii2_2/basic/web/activity/data'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'Phpstorm-3315c5f5=9f57d401-13e9-42e9-aeab-ed67afe299d4; PHPSESSID=1672f513e61db917f7412752e67c6518; _csrf=019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pO21HwGGWla7ufz2V-rHVOnikDA-Oqku%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Unix) OpenSSL/1.0.1p PHP/7.1.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/Yii2_2/basic/web/index.php'
+    'REMOTE_PORT' => '55306'
+    'REDIRECT_URL' => '/Yii2_2/basic/web/activity/data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Yii2_2/basic/web/activity/data'
+    'SCRIPT_NAME' => '/Yii2_2/basic/web/index.php'
+    'PHP_SELF' => '/Yii2_2/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563218934.323
+    'REQUEST_TIME' => 1563218934
+]
+2019-07-15 19:29:01 [::1][-][1672f513e61db917f7412752e67c6518][error][Error] Error: Call to undefined method app\models\Activity::getValues() in /Applications/AMPPS/www/Yii2_2/basic/controllers/ActivityController.php:36
+Stack trace:
+#0 [internal function]: app\controllers\ActivityController->actionIndex()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('activity/', Array)
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2019-07-15 19:29:01 [::1][-][1672f513e61db917f7412752e67c6518][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-3315c5f5' => '9f57d401-13e9-42e9-aeab-ed67afe299d4'
+    'PHPSESSID' => '1672f513e61db917f7412752e67c6518'
+    '_csrf' => '019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pO21HwGGWla7ufz2V-rHVOnikDA-Oqku\";}'
+]
+
+$_SESSION = [
+    'count' => 1
+    '__flash' => []
+    '__captcha/site/captcha' => 'mgqecen'
+    '__captcha/site/captchacount' => 1
+    'currentPage' => '/Yii2_2/basic/web/activity/data'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'Phpstorm-3315c5f5=9f57d401-13e9-42e9-aeab-ed67afe299d4; PHPSESSID=1672f513e61db917f7412752e67c6518; _csrf=019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pO21HwGGWla7ufz2V-rHVOnikDA-Oqku%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Unix) OpenSSL/1.0.1p PHP/7.1.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/Yii2_2/basic/web/index.php'
+    'REMOTE_PORT' => '55309'
+    'REDIRECT_URL' => '/Yii2_2/basic/web/activity/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Yii2_2/basic/web/activity/'
+    'SCRIPT_NAME' => '/Yii2_2/basic/web/index.php'
+    'PHP_SELF' => '/Yii2_2/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563218941.577
+    'REQUEST_TIME' => 1563218941
+]
+2019-07-16 18:24:07 [::1][-][1672f513e61db917f7412752e67c6518][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: activity/data in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('data', Array)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('activity/data', Array)
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2019-07-16 18:24:07 [::1][-][1672f513e61db917f7412752e67c6518][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-3315c5f5' => '9f57d401-13e9-42e9-aeab-ed67afe299d4'
+    'PHPSESSID' => '1672f513e61db917f7412752e67c6518'
+    '_csrf' => '019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pO21HwGGWla7ufz2V-rHVOnikDA-Oqku\";}'
+]
+
+$_SESSION = [
+    'count' => 1
+    '__flash' => []
+    '__captcha/site/captcha' => 'mgqecen'
+    '__captcha/site/captchacount' => 1
+    'currentPage' => '/Yii2_2/basic/web/activity/data'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'Phpstorm-3315c5f5=9f57d401-13e9-42e9-aeab-ed67afe299d4; PHPSESSID=1672f513e61db917f7412752e67c6518; _csrf=019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pO21HwGGWla7ufz2V-rHVOnikDA-Oqku%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Unix) OpenSSL/1.0.1p PHP/7.1.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/Yii2_2/basic/web/index.php'
+    'REMOTE_PORT' => '58924'
+    'REDIRECT_URL' => '/Yii2_2/basic/web/activity/data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Yii2_2/basic/web/activity/data'
+    'SCRIPT_NAME' => '/Yii2_2/basic/web/index.php'
+    'PHP_SELF' => '/Yii2_2/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563301445.983
+    'REQUEST_TIME' => 1563301445
+]
+2019-07-16 22:16:10 [::1][-][1672f513e61db917f7412752e67c6518][error][Error] Error: Call to undefined method app\models\Activity::getValues() in /Applications/AMPPS/www/Yii2_2/basic/controllers/ActivityController.php:36
+Stack trace:
+#0 [internal function]: app\controllers\ActivityController->actionIndex()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('activity', Array)
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2019-07-16 22:16:09 [::1][-][1672f513e61db917f7412752e67c6518][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-3315c5f5' => '9f57d401-13e9-42e9-aeab-ed67afe299d4'
+    'PHPSESSID' => '1672f513e61db917f7412752e67c6518'
+    '_csrf' => '019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pO21HwGGWla7ufz2V-rHVOnikDA-Oqku\";}'
+]
+
+$_SESSION = [
+    'count' => 1
+    '__flash' => []
+    '__captcha/site/captcha' => 'mgqecen'
+    '__captcha/site/captchacount' => 1
+    'currentPage' => '/Yii2_2/basic/web/site/login'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'Phpstorm-3315c5f5=9f57d401-13e9-42e9-aeab-ed67afe299d4; PHPSESSID=1672f513e61db917f7412752e67c6518; _csrf=019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pO21HwGGWla7ufz2V-rHVOnikDA-Oqku%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Unix) OpenSSL/1.0.1p PHP/7.1.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/Yii2_2/basic/web/index.php'
+    'REMOTE_PORT' => '59093'
+    'REDIRECT_URL' => '/Yii2_2/basic/web/activity'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Yii2_2/basic/web/activity'
+    'SCRIPT_NAME' => '/Yii2_2/basic/web/index.php'
+    'PHP_SELF' => '/Yii2_2/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563315368.726
+    'REQUEST_TIME' => 1563315368
+]
+2019-07-16 22:28:31 [::1][-][1672f513e61db917f7412752e67c6518][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'db' (0) in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=db;d...', 'root', 'password', NULL)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('activity')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('activity', 'schema', false)
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(435): yii\db\Schema->getTableSchema('activity')
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(469): yii\db\ActiveRecord::getTableSchema()
+#13 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(500): yii\db\ActiveRecord->attributes()
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(315): yii\db\BaseActiveRecord->hasAttribute('attributes')
+#15 /Applications/AMPPS/www/Yii2_2/basic/controllers/ActivityController.php(38): yii\db\BaseActiveRecord->__set('attributes', 'values')
+#16 [internal function]: app\controllers\ActivityController->actionIndex()
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#20 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('activity', Array)
+#21 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2005] Unknown MySQL server host 'db' (0) in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('activity')
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('activity', 'schema', false)
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(435): yii\db\Schema->getTableSchema('activity')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(469): yii\db\ActiveRecord::getTableSchema()
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(500): yii\db\ActiveRecord->attributes()
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(315): yii\db\BaseActiveRecord->hasAttribute('attributes')
+#13 /Applications/AMPPS/www/Yii2_2/basic/controllers/ActivityController.php(38): yii\db\BaseActiveRecord->__set('attributes', 'values')
+#14 [internal function]: app\controllers\ActivityController->actionIndex()
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('activity', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2019-07-16 22:28:30 [::1][-][1672f513e61db917f7412752e67c6518][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-3315c5f5' => '9f57d401-13e9-42e9-aeab-ed67afe299d4'
+    'PHPSESSID' => '1672f513e61db917f7412752e67c6518'
+    '_csrf' => '019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pO21HwGGWla7ufz2V-rHVOnikDA-Oqku\";}'
+]
+
+$_SESSION = [
+    'count' => 1
+    '__flash' => []
+    '__captcha/site/captcha' => 'mgqecen'
+    '__captcha/site/captchacount' => 1
+    'currentPage' => '/Yii2_2/basic/web/site/login'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'Phpstorm-3315c5f5=9f57d401-13e9-42e9-aeab-ed67afe299d4; PHPSESSID=1672f513e61db917f7412752e67c6518; _csrf=019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pO21HwGGWla7ufz2V-rHVOnikDA-Oqku%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Unix) OpenSSL/1.0.1p PHP/7.1.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/Yii2_2/basic/web/index.php'
+    'REMOTE_PORT' => '59122'
+    'REDIRECT_URL' => '/Yii2_2/basic/web/activity'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Yii2_2/basic/web/activity'
+    'SCRIPT_NAME' => '/Yii2_2/basic/web/index.php'
+    'PHP_SELF' => '/Yii2_2/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563316110.228
+    'REQUEST_TIME' => 1563316110
+]
+2019-07-16 22:32:31 [::1][-][1672f513e61db917f7412752e67c6518][error][yii\db\Exception] PDOException: SQLSTATE[42000] [1049] Unknown database 'yii2basic' in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', 'mysql', NULL)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('activity')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('activity', 'schema', false)
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(435): yii\db\Schema->getTableSchema('activity')
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(469): yii\db\ActiveRecord::getTableSchema()
+#13 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(500): yii\db\ActiveRecord->attributes()
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(315): yii\db\BaseActiveRecord->hasAttribute('attributes')
+#15 /Applications/AMPPS/www/Yii2_2/basic/controllers/ActivityController.php(38): yii\db\BaseActiveRecord->__set('attributes', 'values')
+#16 [internal function]: app\controllers\ActivityController->actionIndex()
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#20 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('activity', Array)
+#21 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[42000] [1049] Unknown database 'yii2basic' in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('activity')
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('activity', 'schema', false)
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(435): yii\db\Schema->getTableSchema('activity')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(469): yii\db\ActiveRecord::getTableSchema()
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(500): yii\db\ActiveRecord->attributes()
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(315): yii\db\BaseActiveRecord->hasAttribute('attributes')
+#13 /Applications/AMPPS/www/Yii2_2/basic/controllers/ActivityController.php(38): yii\db\BaseActiveRecord->__set('attributes', 'values')
+#14 [internal function]: app\controllers\ActivityController->actionIndex()
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('activity', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2019-07-16 22:32:30 [::1][-][1672f513e61db917f7412752e67c6518][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-3315c5f5' => '9f57d401-13e9-42e9-aeab-ed67afe299d4'
+    'PHPSESSID' => '1672f513e61db917f7412752e67c6518'
+    '_csrf' => '019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pO21HwGGWla7ufz2V-rHVOnikDA-Oqku\";}'
+]
+
+$_SESSION = [
+    'count' => 1
+    '__flash' => []
+    '__captcha/site/captcha' => 'mgqecen'
+    '__captcha/site/captchacount' => 1
+    'currentPage' => '/Yii2_2/basic/web/site/login'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'Phpstorm-3315c5f5=9f57d401-13e9-42e9-aeab-ed67afe299d4; PHPSESSID=1672f513e61db917f7412752e67c6518; _csrf=019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pO21HwGGWla7ufz2V-rHVOnikDA-Oqku%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Unix) OpenSSL/1.0.1p PHP/7.1.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/Yii2_2/basic/web/index.php'
+    'REMOTE_PORT' => '59143'
+    'REDIRECT_URL' => '/Yii2_2/basic/web/activity'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Yii2_2/basic/web/activity'
+    'SCRIPT_NAME' => '/Yii2_2/basic/web/index.php'
+    'PHP_SELF' => '/Yii2_2/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563316350.247
+    'REQUEST_TIME' => 1563316350
+]
+2019-07-16 23:17:37 [::1][-][1672f513e61db917f7412752e67c6518][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The table does not exist: activity in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/ActiveRecord.php:438
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(469): yii\db\ActiveRecord::getTableSchema()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(500): yii\db\ActiveRecord->attributes()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(315): yii\db\BaseActiveRecord->hasAttribute('attributes')
+#3 /Applications/AMPPS/www/Yii2_2/basic/controllers/ActivityController.php(38): yii\db\BaseActiveRecord->__set('attributes', 'values')
+#4 [internal function]: app\controllers\ActivityController->actionIndex()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('activity', Array)
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2019-07-16 23:17:35 [::1][-][1672f513e61db917f7412752e67c6518][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-3315c5f5' => '9f57d401-13e9-42e9-aeab-ed67afe299d4'
+    'PHPSESSID' => '1672f513e61db917f7412752e67c6518'
+    '_csrf' => '019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pO21HwGGWla7ufz2V-rHVOnikDA-Oqku\";}'
+]
+
+$_SESSION = [
+    'count' => 1
+    '__flash' => []
+    '__captcha/site/captcha' => 'mgqecen'
+    '__captcha/site/captchacount' => 1
+    'currentPage' => '/Yii2_2/basic/web/site/login'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'Phpstorm-3315c5f5=9f57d401-13e9-42e9-aeab-ed67afe299d4; PHPSESSID=1672f513e61db917f7412752e67c6518; _csrf=019f079c5283f095069b636908d5c6a8a8754cf21715cff88aa60985c170d687a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pO21HwGGWla7ufz2V-rHVOnikDA-Oqku%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Unix) OpenSSL/1.0.1p PHP/7.1.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/Yii2_2/basic/web/index.php'
+    'REMOTE_PORT' => '59345'
+    'REDIRECT_URL' => '/Yii2_2/basic/web/activity'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Yii2_2/basic/web/activity'
+    'SCRIPT_NAME' => '/Yii2_2/basic/web/index.php'
+    'PHP_SELF' => '/Yii2_2/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563319054.305
+    'REQUEST_TIME' => 1563319054
+]
+2019-07-20 09:20:00 [::1][-][1672f513e61db917f7412752e67c6518][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2basic.user' doesn't exist in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1290): PDOStatement->execute()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(413): yii\db\Command->queryInternal('fetch', NULL)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Query.php(274): yii\db\Command->queryOne()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /Applications/AMPPS/www/Yii2_2/basic/models/User.php(117): yii\db\ActiveQuery->one()
+#6 /Applications/AMPPS/www/Yii2_2/basic/models/LoginForm.php(86): app\models\User::findByUsername('eduard')
+#7 /Applications/AMPPS/www/Yii2_2/basic/models/LoginForm.php(58): app\models\LoginForm->getUser()
+#8 [internal function]: app\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\InlineValidator->validateAttribute(Object(app\models\LoginForm), 'password')
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\LoginForm), Array)
+#12 /Applications/AMPPS/www/Yii2_2/basic/models/LoginForm.php(72): yii\base\Model->validate()
+#13 /Applications/AMPPS/www/Yii2_2/basic/controllers/SiteController.php(92): app\models\LoginForm->login()
+#14 [internal function]: app\controllers\SiteController->actionLogin()
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#21 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2basic.user' doesn't exist
+The SQL being executed was: SELECT * FROM `user` WHERE (`username`='eduard') AND (`status`=10) in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php:674
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(413): yii\db\Command->queryInternal('fetch', NULL)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Query.php(274): yii\db\Command->queryOne()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /Applications/AMPPS/www/Yii2_2/basic/models/User.php(117): yii\db\ActiveQuery->one()
+#6 /Applications/AMPPS/www/Yii2_2/basic/models/LoginForm.php(86): app\models\User::findByUsername('eduard')
+#7 /Applications/AMPPS/www/Yii2_2/basic/models/LoginForm.php(58): app\models\LoginForm->getUser()
+#8 [internal function]: app\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\InlineValidator->validateAttribute(Object(app\models\LoginForm), 'password')
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\LoginForm), Array)
+#12 /Applications/AMPPS/www/Yii2_2/basic/models/LoginForm.php(72): yii\base\Model->validate()
+#13 /Applications/AMPPS/www/Yii2_2/basic/controllers/SiteController.php(92): app\models\LoginForm->login()
+#14 [internal function]: app\controllers\SiteController->actionLogin()
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii2basic.user' doesn't exist
+)
+
+2019-07-20 09:19:58 [::1][-][1672f513e61db917f7412752e67c6518][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'TgFrnfWc90amzNO-6WK-VK6QkZXfWvHSPmA-a8mqypE4QAWqnfTDLJeT6_K_NOQdm6f58uYAiYVXNHVSgZyj6w=='
+    'LoginForm' => [
+        'username' => 'eduard'
+        'password' => '123'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-3315c5f5' => '9f57d401-13e9-42e9-aeab-ed67afe299d4'
+    'PHPSESSID' => '1672f513e61db917f7412752e67c6518'
+    '_csrf' => '5fd82f4b5d65e6ddaa6ac1fef7e2898d3c09d7452abab278e8f4d890a458d798a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vAn7hh4j1_8LVVZI57hg9ZxWiTK9H6iz\";}'
+]
+
+$_SESSION = [
+    'count' => 1
+    '__flash' => []
+    '__captcha/site/captcha' => 'mgqecen'
+    '__captcha/site/captchacount' => 1
+    'currentPage' => '/Yii2_2/basic/web/site/login'
+    '__returnUrl' => '/Yii2_2/basic/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Yii2_2/basic/web/site/login'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '227'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'Phpstorm-3315c5f5=9f57d401-13e9-42e9-aeab-ed67afe299d4; PHPSESSID=1672f513e61db917f7412752e67c6518; _csrf=5fd82f4b5d65e6ddaa6ac1fef7e2898d3c09d7452abab278e8f4d890a458d798a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vAn7hh4j1_8LVVZI57hg9ZxWiTK9H6iz%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Unix) OpenSSL/1.0.1p PHP/7.1.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/Yii2_2/basic/web/index.php'
+    'REMOTE_PORT' => '53008'
+    'REDIRECT_URL' => '/Yii2_2/basic/web/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Yii2_2/basic/web/site/login'
+    'SCRIPT_NAME' => '/Yii2_2/basic/web/index.php'
+    'PHP_SELF' => '/Yii2_2/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563614398.766
+    'REQUEST_TIME' => 1563614398
+]
+2019-07-20 09:27:09 [::1][-][1672f513e61db917f7412752e67c6518][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2basic.user' doesn't exist in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1290): PDOStatement->execute()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(413): yii\db\Command->queryInternal('fetch', NULL)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Query.php(274): yii\db\Command->queryOne()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /Applications/AMPPS/www/Yii2_2/basic/models/User.php(117): yii\db\ActiveQuery->one()
+#6 /Applications/AMPPS/www/Yii2_2/basic/models/LoginForm.php(86): app\models\User::findByUsername('eduard')
+#7 /Applications/AMPPS/www/Yii2_2/basic/models/LoginForm.php(58): app\models\LoginForm->getUser()
+#8 [internal function]: app\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\InlineValidator->validateAttribute(Object(app\models\LoginForm), 'password')
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\LoginForm), Array)
+#12 /Applications/AMPPS/www/Yii2_2/basic/models/LoginForm.php(72): yii\base\Model->validate()
+#13 /Applications/AMPPS/www/Yii2_2/basic/controllers/SiteController.php(92): app\models\LoginForm->login()
+#14 [internal function]: app\controllers\SiteController->actionLogin()
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#21 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2basic.user' doesn't exist
+The SQL being executed was: SELECT * FROM `user` WHERE (`username`='eduard') AND (`status`=10) in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php:674
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(413): yii\db\Command->queryInternal('fetch', NULL)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Query.php(274): yii\db\Command->queryOne()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /Applications/AMPPS/www/Yii2_2/basic/models/User.php(117): yii\db\ActiveQuery->one()
+#6 /Applications/AMPPS/www/Yii2_2/basic/models/LoginForm.php(86): app\models\User::findByUsername('eduard')
+#7 /Applications/AMPPS/www/Yii2_2/basic/models/LoginForm.php(58): app\models\LoginForm->getUser()
+#8 [internal function]: app\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\InlineValidator->validateAttribute(Object(app\models\LoginForm), 'password')
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\LoginForm), Array)
+#12 /Applications/AMPPS/www/Yii2_2/basic/models/LoginForm.php(72): yii\base\Model->validate()
+#13 /Applications/AMPPS/www/Yii2_2/basic/controllers/SiteController.php(92): app\models\LoginForm->login()
+#14 [internal function]: app\controllers\SiteController->actionLogin()
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii2basic.user' doesn't exist
+)
+
+2019-07-20 09:27:08 [::1][-][1672f513e61db917f7412752e67c6518][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'JMZHYFlobxCI2ONQb1qHl8x-DkpXG_ML3crLmjG1JtdShylXMQBbermH2xw5DN3e-UlmLW5Bi1y0noCjeYNPrQ=='
+    'LoginForm' => [
+        'username' => 'eduard'
+        'password' => '123'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-3315c5f5' => '9f57d401-13e9-42e9-aeab-ed67afe299d4'
+    'PHPSESSID' => '1672f513e61db917f7412752e67c6518'
+    '_csrf' => '5fd82f4b5d65e6ddaa6ac1fef7e2898d3c09d7452abab278e8f4d890a458d798a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vAn7hh4j1_8LVVZI57hg9ZxWiTK9H6iz\";}'
+]
+
+$_SESSION = [
+    'count' => 1
+    '__flash' => []
+    '__captcha/site/captcha' => 'mgqecen'
+    '__captcha/site/captchacount' => 1
+    'currentPage' => '/Yii2_2/basic/web/site/login'
+    '__returnUrl' => '/Yii2_2/basic/web/site/contact'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Yii2_2/basic/web/site/login'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '227'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'Phpstorm-3315c5f5=9f57d401-13e9-42e9-aeab-ed67afe299d4; PHPSESSID=1672f513e61db917f7412752e67c6518; _csrf=5fd82f4b5d65e6ddaa6ac1fef7e2898d3c09d7452abab278e8f4d890a458d798a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vAn7hh4j1_8LVVZI57hg9ZxWiTK9H6iz%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Unix) OpenSSL/1.0.1p PHP/7.1.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/Yii2_2/basic/web/index.php'
+    'REMOTE_PORT' => '53034'
+    'REDIRECT_URL' => '/Yii2_2/basic/web/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Yii2_2/basic/web/site/login'
+    'SCRIPT_NAME' => '/Yii2_2/basic/web/index.php'
+    'PHP_SELF' => '/Yii2_2/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563614828.95
+    'REQUEST_TIME' => 1563614828
+]
+2019-07-20 09:28:12 [::1][-][1672f513e61db917f7412752e67c6518][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2basic.user' doesn't exist in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1290): PDOStatement->execute()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT EXISTS(S...')
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(425): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Query.php(425): yii\db\Command->queryScalar()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(187): yii\db\Query->exists()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(145): yii\validators\UniqueValidator->modelExists('app\\models\\User', Array, Object(app\models\SignupForm))
+#6 [internal function]: yii\validators\UniqueValidator->yii\validators\{closure}(Object(yii\db\Connection))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1075): call_user_func(Object(Closure), Object(yii\db\Connection))
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(146): yii\db\Connection->useMaster(Object(Closure))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\UniqueValidator->validateAttribute(Object(app\models\SignupForm), 'username')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\SignupForm), Array)
+#11 /Applications/AMPPS/www/Yii2_2/basic/models/SignupForm.php(55): yii\base\Model->validate()
+#12 /Applications/AMPPS/www/Yii2_2/basic/controllers/SiteController.php(136): app\models\SignupForm->signup()
+#13 [internal function]: app\controllers\SiteController->actionSignUp()
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('sign-up', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/sign-up', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#20 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2basic.user' doesn't exist
+The SQL being executed was: SELECT EXISTS(SELECT * FROM `user` WHERE `user`.`username`='eduard') in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php:674
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT EXISTS(S...')
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT EXISTS(S...')
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(425): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Query.php(425): yii\db\Command->queryScalar()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(187): yii\db\Query->exists()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(145): yii\validators\UniqueValidator->modelExists('app\\models\\User', Array, Object(app\models\SignupForm))
+#6 [internal function]: yii\validators\UniqueValidator->yii\validators\{closure}(Object(yii\db\Connection))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1075): call_user_func(Object(Closure), Object(yii\db\Connection))
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(146): yii\db\Connection->useMaster(Object(Closure))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\UniqueValidator->validateAttribute(Object(app\models\SignupForm), 'username')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\SignupForm), Array)
+#11 /Applications/AMPPS/www/Yii2_2/basic/models/SignupForm.php(55): yii\base\Model->validate()
+#12 /Applications/AMPPS/www/Yii2_2/basic/controllers/SiteController.php(136): app\models\SignupForm->signup()
+#13 [internal function]: app\controllers\SiteController->actionSignUp()
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('sign-up', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/sign-up', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#20 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii2basic.user' doesn't exist
+)
+
+2019-07-20 09:28:11 [::1][-][1672f513e61db917f7412752e67c6518][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '0h8lZ0S7io4339ebAg7adrSDv5SLe9ZI1YZGcv6i9RCkXktQLNO-5AaA79dUWIA_gbTX87Ihrh-80g1LtpScag=='
+    'SignupForm' => [
+        'username' => 'eduard'
+        'email' => 'ed.sergeev@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-3315c5f5' => '9f57d401-13e9-42e9-aeab-ed67afe299d4'
+    'PHPSESSID' => '1672f513e61db917f7412752e67c6518'
+    '_csrf' => '5fd82f4b5d65e6ddaa6ac1fef7e2898d3c09d7452abab278e8f4d890a458d798a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vAn7hh4j1_8LVVZI57hg9ZxWiTK9H6iz\";}'
+]
+
+$_SESSION = [
+    'count' => 1
+    '__flash' => []
+    '__captcha/site/captcha' => 'mgqecen'
+    '__captcha/site/captchacount' => 1
+    'currentPage' => '/Yii2_2/basic/web/site/login'
+    '__returnUrl' => '/Yii2_2/basic/web/site/contact'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Yii2_2/basic/web/site/sign-up'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '222'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'Phpstorm-3315c5f5=9f57d401-13e9-42e9-aeab-ed67afe299d4; PHPSESSID=1672f513e61db917f7412752e67c6518; _csrf=5fd82f4b5d65e6ddaa6ac1fef7e2898d3c09d7452abab278e8f4d890a458d798a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vAn7hh4j1_8LVVZI57hg9ZxWiTK9H6iz%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Unix) OpenSSL/1.0.1p PHP/7.1.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/Yii2_2/basic/web/index.php'
+    'REMOTE_PORT' => '53043'
+    'REDIRECT_URL' => '/Yii2_2/basic/web/site/sign-up'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Yii2_2/basic/web/site/sign-up'
+    'SCRIPT_NAME' => '/Yii2_2/basic/web/index.php'
+    'PHP_SELF' => '/Yii2_2/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563614891.808
+    'REQUEST_TIME' => 1563614891
+]
+2019-07-20 11:37:40 [::1][-][1672f513e61db917f7412752e67c6518][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2basic.user' doesn't exist in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1290): PDOStatement->execute()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT EXISTS(S...')
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(425): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Query.php(425): yii\db\Command->queryScalar()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(187): yii\db\Query->exists()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(145): yii\validators\UniqueValidator->modelExists('app\\models\\User', Array, Object(app\models\SignupForm))
+#6 [internal function]: yii\validators\UniqueValidator->yii\validators\{closure}(Object(yii\db\Connection))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1075): call_user_func(Object(Closure), Object(yii\db\Connection))
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(146): yii\db\Connection->useMaster(Object(Closure))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\UniqueValidator->validateAttribute(Object(app\models\SignupForm), 'username')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\SignupForm), Array)
+#11 /Applications/AMPPS/www/Yii2_2/basic/models/SignupForm.php(55): yii\base\Model->validate()
+#12 /Applications/AMPPS/www/Yii2_2/basic/controllers/SiteController.php(136): app\models\SignupForm->signup()
+#13 [internal function]: app\controllers\SiteController->actionSignUp()
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('sign-up', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/sign-up', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#20 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2basic.user' doesn't exist
+The SQL being executed was: SELECT EXISTS(SELECT * FROM `user` WHERE `user`.`username`='user') in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php:674
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT EXISTS(S...')
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT EXISTS(S...')
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(425): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Query.php(425): yii\db\Command->queryScalar()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(187): yii\db\Query->exists()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(145): yii\validators\UniqueValidator->modelExists('app\\models\\User', Array, Object(app\models\SignupForm))
+#6 [internal function]: yii\validators\UniqueValidator->yii\validators\{closure}(Object(yii\db\Connection))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1075): call_user_func(Object(Closure), Object(yii\db\Connection))
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(146): yii\db\Connection->useMaster(Object(Closure))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\UniqueValidator->validateAttribute(Object(app\models\SignupForm), 'username')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\SignupForm), Array)
+#11 /Applications/AMPPS/www/Yii2_2/basic/models/SignupForm.php(55): yii\base\Model->validate()
+#12 /Applications/AMPPS/www/Yii2_2/basic/controllers/SiteController.php(136): app\models\SignupForm->signup()
+#13 [internal function]: app\controllers\SiteController->actionSignUp()
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('sign-up', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/sign-up', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#20 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii2basic.user' doesn't exist
+)
+
+2019-07-20 11:37:39 [::1][-][1672f513e61db917f7412752e67c6518][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'IZWt5wkZR44o8wartB0fSKFZKNW1pjnXFdm8dWdJyJdX1MPQYXFz5BmsPufiS0UBlG5Asoz8QYB8jfdML3-h7Q=='
+    'SignupForm' => [
+        'username' => 'user'
+        'email' => 'user@user.ru'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-3315c5f5' => '9f57d401-13e9-42e9-aeab-ed67afe299d4'
+    'PHPSESSID' => '1672f513e61db917f7412752e67c6518'
+    '_csrf' => '5fd82f4b5d65e6ddaa6ac1fef7e2898d3c09d7452abab278e8f4d890a458d798a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vAn7hh4j1_8LVVZI57hg9ZxWiTK9H6iz\";}'
+]
+
+$_SESSION = [
+    'count' => 1
+    '__flash' => []
+    '__captcha/site/captcha' => 'mgqecen'
+    '__captcha/site/captchacount' => 1
+    'currentPage' => '/Yii2_2/basic/web/site/login'
+    '__returnUrl' => '/Yii2_2/basic/web/activity'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Yii2_2/basic/web/site/sign-up'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '212'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'Phpstorm-3315c5f5=9f57d401-13e9-42e9-aeab-ed67afe299d4; PHPSESSID=1672f513e61db917f7412752e67c6518; _csrf=5fd82f4b5d65e6ddaa6ac1fef7e2898d3c09d7452abab278e8f4d890a458d798a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vAn7hh4j1_8LVVZI57hg9ZxWiTK9H6iz%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Unix) OpenSSL/1.0.1p PHP/7.1.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/Yii2_2/basic/web/index.php'
+    'REMOTE_PORT' => '54397'
+    'REDIRECT_URL' => '/Yii2_2/basic/web/site/sign-up'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Yii2_2/basic/web/site/sign-up'
+    'SCRIPT_NAME' => '/Yii2_2/basic/web/index.php'
+    'PHP_SELF' => '/Yii2_2/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563622659.158
+    'REQUEST_TIME' => 1563622659
+]
+2019-07-20 11:41:41 [::1][-][1672f513e61db917f7412752e67c6518][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2basic.user' doesn't exist in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1290): PDOStatement->execute()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT EXISTS(S...')
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(425): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Query.php(425): yii\db\Command->queryScalar()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(187): yii\db\Query->exists()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(145): yii\validators\UniqueValidator->modelExists('app\\models\\User', Array, Object(app\models\SignupForm))
+#6 [internal function]: yii\validators\UniqueValidator->yii\validators\{closure}(Object(yii\db\Connection))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1075): call_user_func(Object(Closure), Object(yii\db\Connection))
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(146): yii\db\Connection->useMaster(Object(Closure))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\UniqueValidator->validateAttribute(Object(app\models\SignupForm), 'username')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\SignupForm), Array)
+#11 /Applications/AMPPS/www/Yii2_2/basic/models/SignupForm.php(55): yii\base\Model->validate()
+#12 /Applications/AMPPS/www/Yii2_2/basic/controllers/SiteController.php(136): app\models\SignupForm->signup()
+#13 [internal function]: app\controllers\SiteController->actionSignUp()
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('sign-up', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/sign-up', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#20 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2basic.user' doesn't exist
+The SQL being executed was: SELECT EXISTS(SELECT * FROM `user` WHERE `user`.`username`='user') in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php:674
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT EXISTS(S...')
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT EXISTS(S...')
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(425): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Query.php(425): yii\db\Command->queryScalar()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(187): yii\db\Query->exists()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(145): yii\validators\UniqueValidator->modelExists('app\\models\\User', Array, Object(app\models\SignupForm))
+#6 [internal function]: yii\validators\UniqueValidator->yii\validators\{closure}(Object(yii\db\Connection))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1075): call_user_func(Object(Closure), Object(yii\db\Connection))
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/UniqueValidator.php(146): yii\db\Connection->useMaster(Object(Closure))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\UniqueValidator->validateAttribute(Object(app\models\SignupForm), 'username')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\SignupForm), Array)
+#11 /Applications/AMPPS/www/Yii2_2/basic/models/SignupForm.php(55): yii\base\Model->validate()
+#12 /Applications/AMPPS/www/Yii2_2/basic/controllers/SiteController.php(136): app\models\SignupForm->signup()
+#13 [internal function]: app\controllers\SiteController->actionSignUp()
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('sign-up', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/sign-up', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /Applications/AMPPS/www/Yii2_2/basic/web/index.php(12): yii\base\Application->run()
+#20 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii2basic.user' doesn't exist
+)
+
+2019-07-20 11:41:41 [::1][-][1672f513e61db917f7412752e67c6518][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'yEvg5QX3dxf1eqMZgcbQLhKZdzsqcitDI9Q-xvATMq2-Co7SbZ9DfcQlm1XXkIpnJ64fXBMoUxRKgHX_uCVb1w=='
+    'SignupForm' => [
+        'username' => 'user'
+        'email' => 'user@user.ru'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-3315c5f5' => '9f57d401-13e9-42e9-aeab-ed67afe299d4'
+    'PHPSESSID' => '1672f513e61db917f7412752e67c6518'
+    '_csrf' => '5fd82f4b5d65e6ddaa6ac1fef7e2898d3c09d7452abab278e8f4d890a458d798a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vAn7hh4j1_8LVVZI57hg9ZxWiTK9H6iz\";}'
+]
+
+$_SESSION = [
+    'count' => 1
+    '__flash' => []
+    '__captcha/site/captcha' => 'mgqecen'
+    '__captcha/site/captchacount' => 1
+    'currentPage' => '/Yii2_2/basic/web/site/login'
+    '__returnUrl' => '/Yii2_2/basic/web/activity'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Yii2_2/basic/web/site/sign-up'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '212'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'Phpstorm-3315c5f5=9f57d401-13e9-42e9-aeab-ed67afe299d4; PHPSESSID=1672f513e61db917f7412752e67c6518; _csrf=5fd82f4b5d65e6ddaa6ac1fef7e2898d3c09d7452abab278e8f4d890a458d798a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vAn7hh4j1_8LVVZI57hg9ZxWiTK9H6iz%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Unix) OpenSSL/1.0.1p PHP/7.1.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/Yii2_2/basic/web/index.php'
+    'REMOTE_PORT' => '54431'
+    'REDIRECT_URL' => '/Yii2_2/basic/web/site/sign-up'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Yii2_2/basic/web/site/sign-up'
+    'SCRIPT_NAME' => '/Yii2_2/basic/web/index.php'
+    'PHP_SELF' => '/Yii2_2/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1563622901.313
+    'REQUEST_TIME' => 1563622901
+]
+2019-07-20 12:15:29 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', 'mysql', NULL)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/MigrateController.php(210): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(529): yii\console\controllers\MigrateController->getMigrationHistory(10)
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionHistory(10)
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('history', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('history', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/history', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/history', Array)
+#20 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/MigrateController.php(210): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(529): yii\console\controllers\MigrateController->getMigrationHistory(10)
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionHistory(10)
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('history', Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('history', Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/history', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/history', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2019-07-20 12:15:29 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/6j/__hnh13s3pj24r5p22yqwk_40000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.RzJ3l5hvGb/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.0-insider'
+    'USER' => 'ed.imac'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.684Tfi3JEy/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'PATH' => '/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/opt/local/sbin'
+    'PWD' => '/Applications/AMPPS/www/Yii2_2/basic'
+    'LANG' => 'ru_RU.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/ed.imac'
+    'LOGNAME' => 'ed.imac'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/Applications/AMPPS/www/Yii2_2'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1563624929.8542
+    'REQUEST_TIME' => 1563624929
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/history'
+    ]
+    'argc' => 2
+]
+2019-07-20 12:28:32 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/help in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('help', Array)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('help', Array)
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/help', Array)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/help', Array)
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/help". in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/help', Array)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#3 {main}
+2019-07-20 12:28:32 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/6j/__hnh13s3pj24r5p22yqwk_40000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.RzJ3l5hvGb/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.0-insider'
+    'USER' => 'ed.imac'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.684Tfi3JEy/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'PATH' => '/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/opt/local/sbin'
+    'PWD' => '/Applications/AMPPS/www/Yii2_2/basic'
+    'LANG' => 'ru_RU.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/ed.imac'
+    'LOGNAME' => 'ed.imac'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/Applications/AMPPS/www/Yii2_2'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1563625711.8332
+    'REQUEST_TIME' => 1563625711
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/help'
+    ]
+    'argc' => 2
+]
+2019-07-20 12:29:04 [-][-][-][error][yii\console\Exception] yii\console\Exception: Missing required arguments: name in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php:186
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create', Array)
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#8 {main}
+2019-07-20 12:29:04 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/6j/__hnh13s3pj24r5p22yqwk_40000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.RzJ3l5hvGb/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.0-insider'
+    'USER' => 'ed.imac'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.684Tfi3JEy/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'PATH' => '/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/opt/local/sbin'
+    'PWD' => '/Applications/AMPPS/www/Yii2_2/basic'
+    'LANG' => 'ru_RU.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/ed.imac'
+    'LOGNAME' => 'ed.imac'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/Applications/AMPPS/www/Yii2_2'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1563625744.2484
+    'REQUEST_TIME' => 1563625744
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+    ]
+    'argc' => 2
+]
+2019-07-20 12:30:36 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', 'mysql', NULL)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/MigrateController.php(370): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(631): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('create_ussr_tab...')
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#20 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/MigrateController.php(370): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(631): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('create_ussr_tab...')
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create', Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2019-07-20 12:30:35 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/6j/__hnh13s3pj24r5p22yqwk_40000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.RzJ3l5hvGb/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.0-insider'
+    'USER' => 'ed.imac'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.684Tfi3JEy/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'PATH' => '/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/opt/local/sbin'
+    'PWD' => '/Applications/AMPPS/www/Yii2_2/basic'
+    'LANG' => 'ru_RU.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/ed.imac'
+    'LOGNAME' => 'ed.imac'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/Applications/AMPPS/www/Yii2_2'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1563625835.7789
+    'REQUEST_TIME' => 1563625835
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'create_ussr_table'
+    ]
+    'argc' => 3
+]
+2019-07-21 21:37:03 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', 'mysql', NULL)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/MigrateController.php(210): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(529): yii\console\controllers\MigrateController->getMigrationHistory(10)
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionHistory(10)
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('history', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('history', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/history', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/history', Array)
+#20 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/MigrateController.php(210): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(529): yii\console\controllers\MigrateController->getMigrationHistory(10)
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionHistory(10)
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('history', Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('history', Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/history', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/history', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2019-07-21 21:37:01 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/6j/__hnh13s3pj24r5p22yqwk_40000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.RzJ3l5hvGb/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.0-insider'
+    'USER' => 'ed.imac'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.684Tfi3JEy/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'PATH' => '/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/opt/local/sbin'
+    'PWD' => '/Applications/AMPPS/www/Yii2_2/basic'
+    'LANG' => 'ru_RU.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/ed.imac'
+    'LOGNAME' => 'ed.imac'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/Applications/AMPPS/www/Yii2_2'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1563745020.9739
+    'REQUEST_TIME' => 1563745020
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/history'
+    ]
+    'argc' => 2
+]
+2019-07-21 21:37:57 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', 'mysql', NULL)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/MigrateController.php(210): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(529): yii\console\controllers\MigrateController->getMigrationHistory(10)
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionHistory(10)
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('history', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('history', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/history', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/history', Array)
+#20 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/MigrateController.php(210): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(529): yii\console\controllers\MigrateController->getMigrationHistory(10)
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionHistory(10)
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('history', Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('history', Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/history', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/history', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2019-07-21 21:37:57 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/6j/__hnh13s3pj24r5p22yqwk_40000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.RzJ3l5hvGb/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.0-insider'
+    'USER' => 'ed.imac'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.684Tfi3JEy/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'PATH' => '/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/opt/local/sbin'
+    'PWD' => '/Applications/AMPPS/www/Yii2_2/basic'
+    'LANG' => 'ru_RU.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/ed.imac'
+    'LOGNAME' => 'ed.imac'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/Applications/AMPPS/www/Yii2_2'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1563745077.232
+    'REQUEST_TIME' => 1563745077
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/history'
+    ]
+    'argc' => 2
+]
+2019-07-23 20:18:54 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', 'mysql', NULL)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/MigrateController.php(210): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(529): yii\console\controllers\MigrateController->getMigrationHistory(10)
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionHistory(10)
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('history', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('history', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/history', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/history', Array)
+#20 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/MigrateController.php(210): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(529): yii\console\controllers\MigrateController->getMigrationHistory(10)
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionHistory(10)
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('history', Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('history', Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/history', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/history', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2019-07-23 20:18:54 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/6j/__hnh13s3pj24r5p22yqwk_40000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.RzJ3l5hvGb/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.0-insider'
+    'USER' => 'ed.imac'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.684Tfi3JEy/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'PATH' => '/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/opt/local/sbin'
+    'PWD' => '/Applications/AMPPS/www/Yii2_2/basic'
+    'LANG' => 'ru_RU.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/ed.imac'
+    'LOGNAME' => 'ed.imac'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/Applications/AMPPS/www/Yii2_2'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1563913134.3022
+    'REQUEST_TIME' => 1563913134
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/history'
+    ]
+    'argc' => 2
+]
+2019-07-23 20:19:28 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "yii". in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('yii', Array)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('yii', Array)
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "yii". in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('yii', Array)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#3 {main}
+2019-07-23 20:19:28 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/6j/__hnh13s3pj24r5p22yqwk_40000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.RzJ3l5hvGb/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.0-insider'
+    'USER' => 'ed.imac'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.684Tfi3JEy/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'PATH' => '/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/opt/local/sbin'
+    'PWD' => '/Applications/AMPPS/www/Yii2_2/basic'
+    'LANG' => 'ru_RU.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/ed.imac'
+    'LOGNAME' => 'ed.imac'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/Applications/AMPPS/www/Yii2_2'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1563913168.764
+    'REQUEST_TIME' => 1563913168
+    'argv' => [
+        0 => 'yii'
+        1 => 'yii'
+        2 => 'migrate/to'
+    ]
+    'argc' => 3
+]
+2019-07-23 20:21:35 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', 'mysql', NULL)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/MigrateController.php(210): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(842): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(369): yii\console\controllers\BaseMigrateController->migrateToVersion('m190713_102350')
+#15 [internal function]: yii\console\controllers\BaseMigrateController->actionTo('m190713_102350_...')
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('to', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('to', Array)
+#20 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/to', Array)
+#21 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/to', Array)
+#22 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#23 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#24 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/MigrateController.php(210): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(842): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(369): yii\console\controllers\BaseMigrateController->migrateToVersion('m190713_102350')
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionTo('m190713_102350_...')
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('to', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('to', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/to', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/to', Array)
+#20 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#22 {main}
+Additional Information:
+
+2019-07-23 20:21:34 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/6j/__hnh13s3pj24r5p22yqwk_40000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.RzJ3l5hvGb/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.0-insider'
+    'USER' => 'ed.imac'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.684Tfi3JEy/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'PATH' => '/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/opt/local/sbin'
+    'PWD' => '/Applications/AMPPS/www/Yii2_2/basic'
+    'LANG' => 'ru_RU.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/ed.imac'
+    'LOGNAME' => 'ed.imac'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/Applications/AMPPS/www/Yii2_2'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1563913294.6544
+    'REQUEST_TIME' => 1563913294
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/to'
+        2 => 'm190713_102350_add_fk_to_activity_table'
+    ]
+    'argc' => 3
+]
+2019-07-23 20:26:01 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', 'mysql', NULL)
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/MigrateController.php(210): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(842): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(369): yii\console\controllers\BaseMigrateController->migrateToVersion('m190713_102350')
+#15 [internal function]: yii\console\controllers\BaseMigrateController->actionTo('190713_102350')
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('to', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('to', Array)
+#20 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/to', Array)
+#21 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/to', Array)
+#22 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#23 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#24 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#4 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/MigrateController.php(210): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(842): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(369): yii\console\controllers\BaseMigrateController->migrateToVersion('m190713_102350')
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionTo('190713_102350')
+#14 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('to', Array)
+#17 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('to', Array)
+#18 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/to', Array)
+#19 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/to', Array)
+#20 /Applications/AMPPS/www/Yii2_2/basic/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /Applications/AMPPS/www/Yii2_2/basic/yii(20): yii\base\Application->run()
+#22 {main}
+Additional Information:
+
+2019-07-23 20:26:01 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/6j/__hnh13s3pj24r5p22yqwk_40000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.RzJ3l5hvGb/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.0-insider'
+    'USER' => 'ed.imac'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.684Tfi3JEy/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'PATH' => '/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/opt/local/sbin'
+    'PWD' => '/Applications/AMPPS/www/Yii2_2/basic'
+    'LANG' => 'ru_RU.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/ed.imac'
+    'LOGNAME' => 'ed.imac'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/Applications/AMPPS/www/Yii2_2'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1563913560.9315
+    'REQUEST_TIME' => 1563913560
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/to'
+        2 => '190713_102350'
+    ]
+    'argc' => 3
+]
